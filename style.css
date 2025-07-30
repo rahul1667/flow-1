@@ -69,8 +69,9 @@ body {
 
 
 .sndsec {
-    background: white;
+    /* background: white; */
     padding: 60px;
+    background-image:url('bgcircle.png');
 
 }
 
@@ -320,7 +321,10 @@ body {
     /* border:5px solid black; */
 }
 .row3 i{
-    margin-right:0px 150px;
+    margin-right:0px 300px;
+    padding:25px;
+    background:rgb(71, 81, 225);
+    border-radius:25%;
 }
 
 
@@ -344,7 +348,12 @@ body {
 
 .tablearea a {
     color: white;
+    text-decoration: none;
 }
+.tablearea  ul li{
+    list-style:none;
+}
+
 
 .tablearea h6 {
     background: rgb(75, 72, 72);
@@ -376,6 +385,7 @@ body {
     /* left: 30px; */
     font-size: 12px;
 }
+
 
 .footarea i {
     padding: 10px;
