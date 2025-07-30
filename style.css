@@ -1,0 +1,386 @@
+body {
+    margin: 0;
+}
+
+.menuarea ul li {
+    margin-left: 25px;
+    /* margin-right:100px; */
+}
+
+.navarea {
+    background: white;
+}
+
+.navbar {
+    background: white;
+    color: blue;
+}
+
+.menuarea ul li a:hover {
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+.menuarea .topbox {
+    text-align: center;
+    padding: 20px 40px;
+    background: rgb(28, 28, 96);
+    position: relative;
+    clip-path: polygon(60px 0, 100% 0, 100% 100%, 0% 100%);
+    /* background-image: linear-gradient(-60deg ,#3b5998 0%,#3b5998 90%,white 50%,white 100%); */
+}
+
+.menuarea .topbox a {
+    padding: 5px 5px;
+    text-decoration: none;
+    background: white;
+    border: solid 1px black;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    color: black;
+    font-size: 12px;
+}
+
+.slidearea {
+    /* background: black; */
+    position: relative;
+}
+
+.slidearea img {
+    width: 100%;
+}
+
+.slidearea h2 {
+    position: absolute;
+    margin-left: 100px;
+    top: 40%;
+    color: white;
+}
+
+.slidearea p {
+    position: absolute;
+    gap: 30px;
+    margin-left: 100px;
+    top: 55%;
+    color: white;
+}
+
+
+
+.sndsec {
+    background: white;
+    padding: 60px;
+
+}
+
+.sndsec .box {
+
+    top: 25%;
+}
+
+.sndsec p {
+    margin-bottom: 100px;
+}
+
+.sndsec a {
+    background: rgb(9, 9, 107);
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.businesslayer {
+    background: rgb(201, 194, 203);
+    padding: 100px;
+
+}
+
+.businesslayer .box {
+    margin-bottom: 30px;
+    padding: 25px;
+    background: white;
+    text-align: center;
+
+}
+
+.businesslayer img {
+    padding: 40px;
+}
+
+.businesslayer .box a {
+    padding: 10px 25px;
+    border: solid 1px rgb(23, 23, 129);
+    text-decoration: none;
+    
+}
+
+.businesslayer .box h5 {
+    /* /* text-decoration: underline 5px  rgb(35, 75, 130); */
+    margin-left: 60px;
+    text-align: center;
+    width:70%;
+    border-bottom: solid 7px rgb(35, 75, 130);
+
+}
+
+.animationarea {
+    background: rgb(17, 103, 156);
+    /* text-align: center; */
+    color: white;
+    position: relative;
+    padding: 80px;
+}
+
+.xyz {
+    padding: 150px 0;
+    padding-right: 120px;
+}
+
+.animationarea #circle1 {
+    width: 280px;
+    background: rgb(126, 219, 255);
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 50px;
+    /* right:55%; */
+    z-index: 100;
+}
+
+.animationarea #circle2 {
+    background: rgb(191, 211, 219);
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 280px;
+    /* padding-top:-30px; */
+    border-radius: 50%;
+    /* right:45%; */
+    position: absolute;
+    z-index: 200;
+
+}
+
+.animationarea #circle3 {
+    background: rgb(49, 161, 205);
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 280px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 500;
+}
+
+#circle4 {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    right: 25%;
+    /* animation-name: circle;
+    animation-duration: 4s;
+    animation-delay: 1s; */
+    animation:circle 2s infinite linear;
+    animation-iteration-count: infinite;
+}
+
+
+#circle5 {
+    width: 40px;
+    height: 40px;
+    background: rgb(131, 138, 31);
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    right: 5%;
+}
+
+#circle6 {
+    width: 40px;
+    height: 40px;
+    background: rgb(195, 208, 207);
+    border-radius: 50%;
+    position: absolute;
+    top: 65%;
+    right: 55%;
+}
+
+#circle7 {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    right: 50%;
+}
+
+#circle8 {
+    width: 35px;
+    height: 35px;
+    background: rgb(59, 183, 202);
+    border-radius: 50%;
+    position: absolute;
+    top: 65%;
+    right: 15%;
+}
+
+
+
+
+
+.boxarea {
+    /* background:blue; */
+    /* padding:0; */
+    /* text-align: center; */
+    position: relative;
+    padding: 50px;
+}
+
+.boxarea .box {
+    width: 180px;
+    height: 180px;
+    background: white;
+    padding: 25px 15px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0px 2px 8px black;
+}
+
+.boxarea .box img {
+    margin: 10px;
+}
+.largeimg{
+
+    width:100%;
+    text-align: center;
+
+}
+
+.imgarea {
+    background: rgb(223, 218, 218);
+    padding: 60px 0px;
+    /* text-align: center; */
+}
+
+.imgarea .row1 p {
+    color: blue;
+}
+
+.row1 {
+    text-align: right;
+    margin: 100px;
+}
+
+.abc {
+    bottom: 80%;
+    height: 300px;
+    background: rgb(57, 57, 174);
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+
+}
+
+.abc img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: -100px;
+}
+.row3{
+    /* background:red; */
+}
+.row3 img {
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    /* margin-top: -30px; */
+    /* background:white; */
+    /* border:5px solid black; */
+}
+.row3 i{
+    margin-right:0px 150px;
+}
+
+
+.githubarea {
+    padding: 80px 0px;
+    text-align: center;
+    background: white;
+}
+
+.githubarea .box {
+    padding: 30px 5px;
+    background: lab(85.61% 3.09 1.09);
+}
+
+.tablearea {
+    background: rgb(40, 38, 38);
+    padding: 60px 0px;
+    color: white;
+    /* text-align: center; */
+}
+
+.tablearea a {
+    color: white;
+}
+
+.tablearea h6 {
+    background: rgb(75, 72, 72);
+    width: 180px;
+    padding: 5px 2px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.tablearea p {
+    text-align: justify;
+}
+
+.tablearea img {
+    width: 170px;
+    height: 99px;
+}
+
+
+.footarea {
+    width:100%;
+    background: black;
+    padding: 20px 0;
+    color: white;
+    text-align: right;
+}
+
+.footarea p {
+    /* left: 30px; */
+    font-size: 12px;
+}
+
+.footarea i {
+    padding: 10px;
+    right: 40px;
+    background: rgb(61, 59, 59);
+    text-align: right;
+    border-radius: 25px;
+}
